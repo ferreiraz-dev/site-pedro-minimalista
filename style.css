@@ -64,6 +64,7 @@ header h1 {
   width: 600px;
   height: 275px;
   border-radius: 20px;
+  border: 0 0 10px rgb(0, 0, 0);
 }
 
 .link-item {
@@ -77,6 +78,10 @@ header h1 {
   width: 100%;
   text-align: center;
   box-sizing: border-box;
+}
+
+.link-item img {
+  border: 0 0 10px rgb(0, 0, 0);
 }
 
 .link-item:hover {
